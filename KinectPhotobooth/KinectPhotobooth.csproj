@@ -62,10 +62,10 @@
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>CCAA8A0CB259562B0D6784C7EFF7F6AF69007F11</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>B38BFEDB771F7896FA7474C1C945E676287E46FB</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>KinectPhotobooth_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>KinectPhotobooth_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -138,6 +138,7 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <None Include="KinectPhotobooth_1_TemporaryKey.pfx" />
     <None Include="KinectPhotobooth_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
